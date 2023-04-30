@@ -23,27 +23,6 @@ image_border_width = 5**<br>
 
 
 
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
 ```python
 sigma = 1.6
 num_intervals = 3
@@ -88,19 +67,8 @@ img1 = cv2.imread('box.png', cv2.IMREAD_GRAYSCALE)           # queryImage
 
 
 ```python
-
-```
-
-
-```python
 image = img1.astype('float32')
 ```
-
-
-```python
-
-```
-
 
 ```python
 plt.imshow(image, cmap='gray')
@@ -109,7 +77,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](ref/output_15_0.png)
     
 
 
@@ -147,7 +115,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+![png](ref/output_21_0.png)
     
 
 
@@ -318,44 +286,41 @@ for i in first_octave:
 
 
     
-![png](output_41_0.png)
+![png](ref/output_41_0.png)
     
 
 
 
     
-![png](output_41_1.png)
+![png](ref/output_41_1.png)
     
 
 
 
     
-![png](output_41_2.png)
+![png](ref/output_41_2.png)
     
 
 
 
     
-![png](output_41_3.png)
+![png](ref/output_41_3.png)
     
 
 
 
     
-![png](output_41_4.png)
+![png](ref/output_41_4.png)
     
 
 
 
     
-![png](output_41_5.png)
+![png](ref/output_41_5.png)
     
 
 
 
-```python
-
-```
 
 # Step #4
 ## Generating DoG of Images
@@ -420,38 +385,34 @@ for i in first_octave_dog:
 
 
     
-![png](output_49_0.png)
+![png](ref/output_49_0.png)
     
 
 
 
     
-![png](output_49_1.png)
+![png](ref/output_49_1.png)
     
 
 
 
     
-![png](output_49_2.png)
+![png](ref/output_49_2.png)
     
 
 
 
     
-![png](output_49_3.png)
+![png](ref/output_49_3.png)
     
 
 
 
     
-![png](output_49_4.png)
+![png](ref/output_49_4.png)
     
 
 
-
-```python
-
-```
 
 # Step 6 
 ## Finding Keypoints using the scale space extrema
@@ -486,19 +447,7 @@ def findScaleSpaceExtrema(gaussian_images, dog_images, num_intervals, sigma, ima
 ```
 
 
-```python
 
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
 
 ### to find scale space extrema we need 3 functions
 #### isPixelAnExtremum ( )
@@ -2129,7 +2078,7 @@ plt.show()
 
 
     
-![png](output_105_0.png)
+![png](ref/output_105_0.png)
     
 
 
@@ -2142,7 +2091,7 @@ plt.show()
 
 
     
-![png](output_106_0.png)
+![png](ref/output_106_0.png)
     
 
 
@@ -2220,37 +2169,37 @@ for i in first_octave:
 
 
     
-![png](output_116_0.png)
+![png](ref/output_116_0.png)
     
 
 
 
     
-![png](output_116_1.png)
+![png](ref/output_116_1.png)
     
 
 
 
     
-![png](output_116_2.png)
+![png](ref/output_116_2.png)
     
 
 
 
     
-![png](output_116_3.png)
+![png](ref/output_116_3.png)
     
 
 
 
     
-![png](output_116_4.png)
+![png](ref/output_116_4.png)
     
 
 
 
     
-![png](output_116_5.png)
+![png](ref/output_116_5.png)
     
 
 
@@ -2293,31 +2242,31 @@ for i in first_octave_dog:
 
 
     
-![png](output_122_0.png)
+![png](ref/output_122_0.png)
     
 
 
 
     
-![png](output_122_1.png)
+![png](ref/output_122_1.png)
     
 
 
 
     
-![png](output_122_2.png)
+![png](ref/output_122_2.png)
     
 
 
 
     
-![png](output_122_3.png)
+![png](ref/output_122_3.png)
     
 
 
 
     
-![png](output_122_4.png)
+![png](ref/output_122_4.png)
     
 
 
@@ -2642,7 +2591,7 @@ print("Time taken:", elapsed_time, "seconds")
 
 
     
-![png](output_158_0.png)
+![png](ref/output_158_0.png)
     
 
 
@@ -2885,7 +2834,7 @@ print("Time taken:", elapsed_time, "seconds")
 
 
     
-![png](output_176_0.png)
+![png](ref/output_176_0.png)
     
 
 
@@ -2928,7 +2877,7 @@ plt.show()
 
 
     
-![png](output_180_0.png)
+![png](ref/output_180_0.png)
     
 
 
@@ -2942,7 +2891,7 @@ plt.show()
 
 
     
-![png](output_181_0.png)
+![png](ref/output_181_0.png)
     
 
 
@@ -3187,7 +3136,7 @@ print("Time taken:", elapsed_time, "seconds")
 
 
     
-![png](output_196_0.png)
+![png](ref/output_196_0.png)
     
 
 
@@ -3282,7 +3231,7 @@ print("Time taken:", elapsed_time, "seconds")
 
 
     
-![png](output_199_0.png)
+![png](ref/output_199_0.png)
     
 
 
